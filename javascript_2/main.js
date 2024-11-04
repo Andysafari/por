@@ -1,5 +1,4 @@
 alert("hello")   
-
 // Define quiz data
 const QUESTIONS = [
     {
