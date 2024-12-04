@@ -2,98 +2,48 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Interactive Quiz</title>
-    <link rel="stylesheet" href="style.css">
-
+    <title>Quiz Game</title>
+    <style>
+        #quiz-container {
+            display: none; /* Hide quiz initially */
+            margin-top: 20px;
+        }
+        .question {
+            font-weight: bold;
+        }
+        .answer {
+            display: block;
+            margin: 10px 0;
+            padding: 10px;
+            background-color: lightblue;
+            cursor: pointer;
+        }
+        .answer:hover {
+            background-color: deepskyblue;
+        }
+        #feedback {
+            margin-top: 20px;
+            font-size: 1.2em;
+        }
+    </style>
 </head>
 <body>
-    <h1>Quiz Game</h1>
+    <h1 id="title">Welcome to the Quiz Game</h1>
+    <p class="description">Press "Start Quiz" to begin!</p>
     <button id="start-btn">Start Quiz</button>
+    
     <div id="quiz-container">
-        <p class="question">What is the capital of France?</p>
-        <button class="answer">Paris</button>
-        <button class="answer">Rome</button>
+        <p id="question" class="question">Question will appear here</p>
+        <div id="answers">
+            <!-- Answer options will be added here by JavaScript -->
+        </div>
     </div>
-    <p id="timer">60</p>
+    <p id="feedback"></p>
+    
     <script src="script.js"></script>
 </body>
 </html>
 
 
-</head>   
-<body>  
-<script sr="script.js"> </script>
-</body>
-</html>
-
-// named constant for a a fixed value 
-const MAX_LOGIN_ATTEMPTS = 3 ;      
-
-//conditional statememt to check login attpts 
-let attempts = 2; // Example number of attempts 
-
-if( attempts <MAX_LOGIN_ATTEMPTS) { 
-consloe. log (  Try logging in.) ;
-} else if (attempts === MAX_LOGIN_ATTEMTS ) { 
-    console.log (last attempt !) ; 
-} else {
-console.log (Account locked );  
-const MAX_SCORE = 100;
-
-} 
-     
-
-// wile loop Example 
-let couter = 0; 
-wile (counter < 5) { 
-    consloe.log (" counter is at:" + counter ) ; 
-    counter++;
-} 
-
-// for loop Exnple 
-for ( let index = 0 index < 5 ; index++) { 
-     console.log (" loop intreation number:" + index ) :
-}
-
-// Function that Accepts an Argument 
-Function greetperson( personName) { 
-    console.log(" hello," + personName ) ; 
-} 
-
-greetperson(" Alice" ): 
-
-// Function that Accepts Multple Arguments
- function calculatesum (numberone.numberTwo) { 
-    // This function also returns data 
-    return numberone + numberTwo ; 
- } 
-
- cosole .log( calculatesum(5, 7)) ; // Outputs 12  
-
-/   create an array of different types of pets 
- let petTypes = [ " Dog", "cat", " parrot", " Fish" ]; 
- 
- console.log( petTypes [0]);
-
- // iterating throught the array useing a for loop 
- for ( let index = 0; index= < petTypes. lenght; index ++) { 
-      let pet = petTypes [ index ] ;
-      console.log (" pet Types " + ( index + 1) + " : " + pet ) ; 
- } 
 
 
-
-  <html>
-    <head> 
-         <Title> JavaScript </Title>
-    </head>
-    <Body> 
-      <h1 id=" myHeading "></h1>  
-      <img/>  
-      <p class = " colorize"> This has been by JavaScript </p>
-      <p id=" specialparagraph"> colorize </p> 
-      <p class=" colorize"> this has been changed by JavaScript</p> 
-      <p>colorize</p>
-      <img/>
-    </Body>
-  </html>

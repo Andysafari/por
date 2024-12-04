@@ -111,3 +111,4 @@ function endQuiz() {
     startButton.textContent = "Restart Quiz";
     currentQuestionIndex = 0; // Reset for potential restart
 }
+ 
