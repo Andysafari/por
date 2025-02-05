@@ -1,6 +1,6 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/Users/sa80/Documents/Dae_projects/c++/spider_robot/main'
+binary-path:     main
 relocations:
   - { offsetInCU: 0x2D90, offset: 0x2D90, size: 0x8, addend: 0x0, symName: __ZNSt3__124__put_character_sequenceB7v160006IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m, symObjAddr: 0x594, symBinAddr: 0x100003160, symSize: 0x1F4 }
   - { offsetInCU: 0x46C7, offset: 0x46C7, size: 0x8, addend: 0x0, symName: __ZNSt3__1lsB7v160006IcNS_11char_traitsIcEENS_9allocatorIcEEEERNS_13basic_ostreamIT_T0_EES9_RKNS_12basic_stringIS6_S7_T1_EE, symObjAddr: 0x29C, symBinAddr: 0x100002E68, symSize: 0x4C }
