@@ -2,7 +2,7 @@
 #include <string> // Required for using strings
 
 void batterylife() {
-std::cout << "checking battery....\n";
+std::cout << "checking battery....\n:";  
 }
 
 int main() {
